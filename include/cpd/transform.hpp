@@ -29,10 +29,10 @@
 #include <functional>
 #include <vector>
 
-#include <cpd/gauss_transform.hpp>
-#include <cpd/matrix.hpp>
-#include <cpd/normalization.hpp>
-#include <cpd/utils.hpp>
+#include "gauss_transform.hpp"
+#include "matrix.hpp"
+#include "normalization.hpp"
+#include "utils.hpp"
 
 namespace cpd {
 

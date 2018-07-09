@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include <cpd/matrix.hpp>
+#include "matrix.hpp"
 
 namespace cpd {
 

@@ -1,5 +1,3 @@
-cmake_minimum_required(VERSION 3.1)
-set(CPD_LANGUAGES CXX)
 set(CPD_VERSION 0.5.1)
 set(CPD_SOVERSION 0)
 
@@ -90,12 +88,12 @@ endif()
 
 
 # Tests
-option(WITH_TESTS "Build test suite" ON)
-if(WITH_TESTS)
-    enable_testing()
-    add_subdirectory("${PROJECT_SOURCE_DIR}/vendor/googletest-release-1.8.0/googletest")
-    add_subdirectory(tests)
-endif()
+#option(WITH_TESTS "Build test suite" ON)
+#if(WITH_TESTS)
+#    enable_testing()
+#    add_subdirectory("${PROJECT_SOURCE_DIR}/vendor/googletest-release-1.8.0/googletest")
+#    add_subdirectory(tests)
+#endif()
 
 
 # Install
